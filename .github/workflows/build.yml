@@ -4,8 +4,7 @@
 name: Check for any build error
 
 on:
-  push:
-    branches: [ "main" ]
+  # run this just on the prs for checking errors, the other one will deploy
   pull_request:
     branches: [ "main" ]
 
